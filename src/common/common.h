@@ -8,7 +8,7 @@ extern "C" {
 #include <dynamic_libs/os_defs.h>
 
 #define CAFE_OS_SD_PATH             "/vol/external01"
-#define GAME_MOD_FOLDER             "/sdcafiine"
+#define GAME_MOD_FOLDER             "/themes"
 #define SD_PATH                     "sd:"
 #define USB_PATH                    "usb:"
 #define DEFAULT_NAME_PACKAGE        "DEFAULT"
