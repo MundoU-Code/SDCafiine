@@ -141,8 +141,8 @@ void HandleMultiModPacks(u64 titleID/*,bool showMenu*/) {
         if(initScreen) {
             OSScreenClearBufferEx(0, 0);
             OSScreenClearBufferEx(1, 0);
-            console_print_pos(x_offset, -1, "                  -- SDCafiine %s by Maschell --",APP_VERSION);
-            console_print_pos(x_offset, 1, "Select your options and press A to launch.");
+            console_print_pos(x_offset, -1, "          AWESOME THEME STORE  -- SDCafiine %s por Maschell --",APP_VERSION);
+            console_print_pos(x_offset, 1, "Seleccione su tema con A para cargarlo \n Awesome Theme Manager by Mundo U Team.");
             int y_offset = 3;
             int cur_ = 0;
 
@@ -166,7 +166,7 @@ void HandleMultiModPacks(u64 titleID/*,bool showMenu*/) {
             }
 
             if(max_pages > 0) {
-                console_print_pos(x_offset, 17, "Page %02d/%02d. Press L/R to change page.", page + 1,max_pages);
+                console_print_pos(x_offset, 17, "Pagina %02d/%02d. Presione L/R para cambiar de pagina.", page + 1,max_pages);
             }
 
             // Flip buffers
